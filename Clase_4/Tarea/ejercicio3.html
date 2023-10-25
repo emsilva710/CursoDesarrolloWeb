@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+<body>
+    <form id="formPrograma"
+    action="http://192.168.40.146//clase4/datos.php" method="post">
+    <span>Nombre</span>
+    <input id="nombre" name="nombre" 
+    type="text" placeholder="Nombre"><br><br>
+    <span>Apellido</span>
+    <input id="apellido" name="apellido" 
+    type="text"><br><br>
+    <span>Email</span>
+    <input id="email" name="email" 
+    type="email"><br><br>
+
+    <span>Direccion</span>
+    <input id="Direccion" name="Direccion" 
+    type="text"><br><br>
+
+    <span>Contraseña</span>
+    <input id="Contraseña" name="Contraseña" 
+    type="password"><br><br>
+
+    <span>Telefono</span>
+    <input id="Telefono" name="Telefono" 
+    type="text"><br><br>
+
+    <span>Productos</span><br><br>
+    <div>
+        <input type="checkbox" name="disco1" id="disco1">
+        <label for="disco1">Disco Duro 500Gb.</label>
+    </div>
+    <div>
+        <input type="checkbox" name="disco2">
+        Disco Duro 2Tb.
+    </div>
+    <div>
+        <input type="checkbox" name="procesador">
+        Procesador i5.
+    </div><br>
+    <span>Sexo</span><br><br>
+    <div>
+        <input type="radio" name="sexo" id="varon" value="Varón" checked>
+        <label for="varon">Maculino</label> <br>
+        <input type="radio" name="sexo" id="mujer" value="Mujer">
+        <label for="mujer">Femenino</label>
+    </div><br><br>
+    <span>Compañia</span><br>
+    <div>
+        <input type="number" maxlength="4" max="1000" min="0983" name="compañia" id="compañia"> 
+    </div><br><br>
+    <span>Mensaje</span><br>
+    <textarea name="mensaje" id="mensaje" placeholder="Mensaje"
+     cols="30" rows="5"></textarea><br><br> 
+     <div>
+        <input type="checkbox" name="condicion" id="condicion">
+        <label for="condicion">Acepto los terminos y condiciones.</label>
+    </div><br>
+    <input type="submit" value="enviar datos">
+    </form>
+    
+</body>
+</html>
